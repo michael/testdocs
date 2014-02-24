@@ -1,0 +1,77 @@
+{
+  "id": "ff66b443710d2cbfe74741e0cd0c9e23",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "ff66b443710d2cbfe74741e0cd0c9e23",
+      "creator": "",
+      "title": "Test Document",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-24T09:34:28.017Z",
+      "updated_at": "2014-02-24T09:35:05.530Z",
+      "published_on": "2014-02-24T09:35:05.530Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Start typing"
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "John Doe",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    }
+  }
+}
